@@ -1,56 +1,19 @@
-# Mobile-Dev-Week-1
-Introduction to Flutter and Dart
+## Week 5: Database Integration:
+1. Explore different database options in Flutter, such as SQLite, Firebase Realtime Database, or Firestore. (Firebase is recommended)
+2. Learn how to perform basic CRUD operations (Create, Read, Update, Delete) using a database in Flutter.
+3. Developing a chat app with real-time messaging using Firebase
 
-## How to Submit
-1. Add code in the submission folder: Place all the relevant code files in the submission folder provided for the project. This may include source code files, configuration files, and any other necessary files required to run your project.
-2. Describe your project in the readme file: Create a readme.md file in the submission folder and provide a clear and concise description of your project. Include details such as the project's purpose, functionality, features, and any important instructions or dependencies required to run the project successfully.
-3. Add Screenshots: Include screenshots or images in the readme file to visually represent your project. These screenshots can showcase the user interface, different features, or any other relevant aspects of your project that you want to highlight.
-4. Create a GitHub repository: Create a new repository in your own GitHub account. This repository will serve as a version-controlled storage for your project code and readme file.
-5. Upload code and readme file to the repository: Upload all the code files and the readme.md file to the newly created GitHub repository. Make sure to maintain the folder structure and file organization similar to the submission folder.
-6. Add the repository link to the course submission folder readme file: Finally, open the course submission folder readme file and edit it to include the link to your GitHub repository. This way, the instructors or evaluators can easily access and review your project.
+### Porject
+#### Task Manager
+##### Description:
+1. Create a task management app that allows users to create, read, update, and delete tasks. The app will store the tasks in a database, providing a seamless user experience.
 
-## Week 1: Introduction to Flutter and Dart
-### Day 1 & 2:
-1. Learn about Flutter and its advantages. (https://youtu.be/sNtuTPyrTNU)
-2. Familiarize with the Dart programming language. (https://youtu.be/fnpD5NCzIIo)
-3. Learn dart from https://dart-tutorial.com/
-   * Some topics you need to learn:
-      * Basic Hello World Porgram
-      * Variables and Constants
-      * Conditions and loops
-      * Lists and method list
-      * Lists and method list
-      * Object-Oriented Programming
-      * Null Safety
-      * Asynchrounous Programing
-
-4. Practice writing simple Dart programs and exercises and push these to github under week1 folder
-
-### Day 3 & 4:
-1. Install Flutter SDK and set up your development environment. (https://youtu.be/BqHOtlh3Dd4)
-2. Create a "Hello World" Flutter app and run it on an emulator or device. (https://youtu.be/UPSsxGQRIzs)
-3. Understand concept of widgets in Flutter. (https://youtu.be/7rXDaNAAeak)
-4. Learn about various built-in widgets and how to use them to build user interfaces.
-   * Some widgets you need to learn
-      * Material App
-      * AppBar
-      * Text
-      * TextField
-      * Button
-      * Image
-      * Row
-      * Column
-
-6. Learn to add assests like images and fonts in project.
-7. Experiment with different layout widgets to create UIs.
-
-### Day 5 & 6:
-1. Building simple personal card UI
-2. Some Samples
-
-![Sample Card UI](https://drive.google.com/uc?export=view&id=1JC0hVt3AxwNassG7ixEvvEQzTOWx4MLn)
-![Sample 2](https://mir-s3-cdn-cf.behance.net/project_modules/hd/8f297256512097.59b16301a9a93.jpg)
-![Sample 3](https://cdn.dribbble.com/users/2181377/screenshots/14084662/media/28e5fece035d57f35d49eaa8b8867115.png?compress=1&resize=400x300&vertical=center)
-![Sample 4](https://www.coremobileapps.com/wp-content/uploads/ssc-mockup-1.png)
-
-### Submission must be in `Submission` folder.
+##### Features:
+1. Task Creation: Provide a form for users to input task details such as title, description, due date, and priority. When a user creates a new task, store it in the database.
+2. Task List: Display a list of tasks with their corresponding details (title, description, due date, and priority). Retrieve and display tasks from the database.
+3. Task Details: Allow users to view and edit individual task details. Implement functionality to update task details and reflect the changes in the database.
+4. Task Deletion: Enable users to delete tasks from the app. Remove the corresponding task from the database when a user deletes it.
+5. Task Filtering and Sorting: Implement options to filter and sort tasks based on criteria such as priority or due date. Update the task list dynamically based on the selected filters and sorting options.
+6. Real-time Updates: If using a real-time database like Firebase Realtime Database or Firestore, implement real-time updates so that any changes made by other users are instantly reflected in the app.
+7. Data Persistence: Ensure that task data is persisted locally using a local database like SQLite, allowing users to access their tasks even when offline.
+8. User Experience: Pay attention to the user interface and user experience to create an intuitive and visually appealing app. Implement features like error handling, loading indicators, and notifications to enhance the user experience.
