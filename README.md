@@ -3,7 +3,7 @@
 2. Learn how to perform basic CRUD operations (Create, Read, Update, Delete) using a database in Flutter.
 3. Developing a chat app with real-time messaging using Firebase
 
-### Porject
+### Project
 #### Task Manager
 ##### Description:
 1. Create a task management app that allows users to create, read, update, and delete tasks. The app will store the tasks in a database, providing a seamless user experience.
